@@ -27,7 +27,9 @@ const softSkills = [
     'Attention to detail',
     'Teamwork',
     'Creativity',
-    'Good communication'
+    'Good communication',
+    'Cooperative',
+    
 ]
 
 softSkills.forEach(skill => {
@@ -41,7 +43,10 @@ const languageList = document.querySelector('.language-list');
 
 const languages = [
     'english - upper-intermediate',
-    'ukrainian - native'
+    'ukrainian - native',
+    'polish - intermediate',
+    'russian - above average'
+
 ]
 
 languages.forEach(language => {
